@@ -1,0 +1,29 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+	flex-direction: column;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#preview {
+	width: 400px;
+	height: 255px;
+	/* border: 1px #000 solid; */
+	-webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+}
+
+.btn {
+	margin-top: 20px;
+	flex-direction: row;
+}
