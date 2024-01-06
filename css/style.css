@@ -5,6 +5,7 @@ body {
 	height: 100vh;
 	background-color: #f0f0f0;
 	flex-direction: column;
+	font-family: monospace;
 }
 
 button {
@@ -17,7 +18,6 @@ button {
 #preview {
 	width: 400px;
 	height: 255px;
-	/* border: 1px #000 solid; */
 	-webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
 	box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
@@ -26,4 +26,9 @@ button {
 .btn {
 	margin-top: 20px;
 	flex-direction: row;
+}
+
+#timer {
+	margin-top: 20px;
+	font-size: 30px;
 }
