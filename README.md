@@ -13,8 +13,7 @@ Screen Recorder is a simple application that allows you to record your screen ac
 ## Installation
 
 1. Clone the repository: `git clone git@github.com:cirin0/screen-recorder.git`
-2. Install the required dependencies: `npm install`
-3. Start the application: `npm start`
+2. Open the application.
 
 ## Usage
 
